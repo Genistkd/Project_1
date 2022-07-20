@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,19 +10,15 @@
 <body>
 
     <header>
-        <div>
-            <img class="circle" src="https://circle-agency-35d27e.webflow.io/#" alt="circle" />
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#"> Home </a></li>
-                <li><a href="#"> Projects </a></li>
-                <li><a href="#"> Services </a></li>
+        <nav id="nav">
+            <img class="circle-nav" src="circle.png" alt="circle logo" />
+            <ul class="nav-list">
+                <li><a class="list-link" href="#nav"> Home </a></li>
+                <li><a class="list-link" href="#"> Projects </a></li>
+                <li><a class="list-link" href="#"> Services </a></li>
             </ul>
+            <a href="#" class="contact-us-button">Contact Us</a><!--Make it button-->
         </nav>
-        <div>
-            <button type="button">Contact Us</button> <!--Change to link-->
-        </div>
     </header>
 
     <section>
@@ -30,17 +27,13 @@
         <p>Circle is a digital design and development studio. 
             We design and develop astonishing websites and mobile apps.</p>
 
-        <a href="#" class="See-our-work-button">See our work</a>
-        <a href="#" class="Get-in-touch-button">Get in touch</a>        
+        <a href="#" class="see-our-work-button">See our work</a>
+        <a href="#" class="set-in-touch-button">Get in touch</a>        
 
-        <img class="happyGuy" src="" alt="happy guy" /> <!--Insert image-->
+        <img class="happy-guy" src="Happy-guy.png" alt="happy guy" /> 
 
-        <div> <!--Insert images-->
-            <img class="airbnb" src="" alt="airbnb" />
-            <img class="google" src="" alt="google" />
-            <img class="microsoft" src="" alt="microsoft" />
-            <img class="fedex" src="" alt="fedex" />
-            <img class="amazon" src="" alt="amazon" />
+        <div>
+            <img class="client-section" src="Client Section.png" alt="client section" />
         </div>
     </section>
 
@@ -49,21 +42,21 @@
 
         <div> <!--Inside this "div" I will make another 3 to facility the CSS-->
             <div>
-                <img class="image_1" src="" alt="image_1" />
+                <img class="rectangle-1" src="Rectangle 1.png" alt="rectangle 1" />
                 <h3>Simplify</h3>
                 <p>UI Desing & App Development</p>
                 <a href="#">Learn More</a>
             </div>
 
             <div>
-                <img class="image_2" src="" alt="image_2" />
+                <img class="rectangle-2" src="Rectangle 2.png" alt="rectangle 2" />
                 <h3>Dashcoin</h3>
                 <p>Web Development</p>
                 <a href="#">Learn More</a>
             </div>
 
             <div>
-                <img class="image_3" src="" alt="image_3" />
+                <img class="rectangle-3" src="Rectangle 3.png" alt="rectangle 3" />
                 <h3>Vectorify</h3>
                 <p>User experience Desing</p>
                 <a href="#">Learn More</a>
@@ -76,7 +69,7 @@
         <h2>Hear What Our Clients Have to Say</h2>
 
         <p>"Circle helped us through every stage of our startup. We really enjoyed working with you."</p>
-        <img class="booking_review" src="" alt="booking_review" />
+        <img class="booking_review" src="Client's Information.png" alt="booking_review" />
     </section>
 
     <section>
@@ -84,21 +77,21 @@
 
         <div> <!--Inside this "div" I will make another 3 to facility the CSS-->
             <div>
-                <img class="wirting_pen_logo" src="" alt="writing pen logo" />
+                <img class="wirting_pen_icon" src="Icon 1.png" alt="writing pen icon" />
                 <h3>User Interface Desing</h3>
                 <p>Circle provides you with a stunning user interface design that is accessible to everyone.</p>
                 <a href="#">Learn More</a>
             </div>
 
             <div>
-                <img class="cursor_logo" src="" alt="cursor logo" />
+                <img class="cursor_icon" src="Icon 2.png" alt="cursor icon" />
                 <h3>User Experience Desing</h3>
                 <p>Circle always focuses on delivering the best user experience to your customers.</p>
                 <a href="#">Learn More</a>
             </div>
 
             <div>
-                <img class="file_logo" src="" alt="file logo" />
+                <img class="file_icon" src="Icon 3.png" alt="file icon" />
                 <h3>Application Development</h3>
                 <p>We develop high-quality mobile and web applications using the latest technology stack.</p>
                 <a href="#">Learn More</a>
@@ -115,7 +108,7 @@
     </section>
 
     <footer>
-        <img class="circle" src="https://circle-agency-35d27e.webflow.io/#" alt="circle" />
+        <img class="circle-footer" src="circle.png" alt="circle logo" />
 
         <p>2972 Westheimer Rd. Santa Ana, </br> 
             Illinois 85486</p>
